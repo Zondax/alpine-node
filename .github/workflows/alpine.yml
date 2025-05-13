@@ -20,11 +20,11 @@ jobs:
         with:
           node-version: "lts/*"
 
-      - name: Display Node.js version
-        run: node --version
-      
       - name: where is node
         run: which node
+
+      - name: Display Node.js version
+        run: node --version
 
       - name: Display npm version
         run: npm --version
