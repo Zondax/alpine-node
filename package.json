@@ -1,0 +1,22 @@
+{
+  "name": "alpine-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "say": "cowthink node.js is cool"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zondax/alpine-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zondax/alpine-node/issues"
+  },
+  "homepage": "https://github.com/Zondax/alpine-node#readme",
+  "description": "",
+  "dependencies": {
+    "cowsay": "^1.6.0"
+  }
+}
